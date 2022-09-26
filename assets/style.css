@@ -1,0 +1,19 @@
+section h1:nth-of-type(1) {
+    background-color: lightblue;
+}
+
+/* Weil der 2. Absatz in einem article steht und der erste in einer section, kann ich den ersten h1 der sections damit ansteuern. */
+
+/* article h1 {
+    background-color: none;
+} */
+
+section {
+    background-color: linen;
+}
+
+article {
+    background-image: url("https://images.unsplash.com/photo-1662023492149-ba899a3e70b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2Mzc2NzMxMA&ixlib=rb-1.2.1&q=80&w=1080");
+    background-size: cover;
+    background-position: center;
+}
